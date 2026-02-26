@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA STUDIO</title>
+    <link rel="stylesheet" href="styles (1).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1">FGHJKLÑ</div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Side Navigation for Desktop 
+    <nav class="side-nav">
+        <div class="side-nav-item" data-section="hero">
+            <div class="side-nav-dot"></div>
+            <span class="side-nav-label">Inicio</span>
+        </div>
+        <div class="side-nav-item" data-section="about">
+            <div class="side-nav-dot"></div>
+            <span class="side-nav-label">Sobre Mí</span>
+        </div>
+        <div class="side-nav-item" data-section="experience">
+            <div class="side-nav-dot"></div>
+            <span class="side-nav-label">Experiencia</span>
+        </div>
+        <div class="side-nav-item" data-section="achievements">
+            <div class="side-nav-dot"></div>
+            <span class="side-nav-label">Logros</span>
+        </div>
+        <div class="side-nav-item" data-section="contact">
+            <div class="side-nav-dot"></div>
+            <span class="side-nav-label">Contacto</span>
+        </div>
+    </nav>
+    -->
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">NS</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#achievements" class="nav-link">Mis Logros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="avatar floating">NS</div>
+                <h1 class="hero-title glitch" data-text="Tu Nombre">Denisse Ariana Rodriguez Torres</h1>
+                <p class="hero-subtitle typewriter">TECNICO EN PROGRAMACION </p>
+                <p class="hero-description fade-in-up">
+                    Apasionado por crear experiencias digitales excepcionales que combinan
+                    diseño elegante con código limpio y eficiente.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link pulse-hover">
+                        <i class="fab fa-github">HH</i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link pulse-hover">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:tu@email.com" class="social-link pulse-hover">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <p>Desliza hacia abajo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Soy un profesional dedicado con más de 5 años de experiencia en el
+                        desarrollo de aplicaciones web y móviles. Mi enfoque está en crear
+                        soluciones innovadoras que resuelvan problemas reales.
+                    </p>
+                    <p class="about-paragraph">
+                        Me especializo en tecnologías modernas como React, Node.js, y TypeScript,
+                        siempre buscando las mejores prácticas y patrones de diseño para
+                        entregar productos de alta calidad.
+                    </p>
+                    <p class="about-paragraph">
+                        Cuando no estoy programando, me encontrarás explorando nuevas tecnologías,
+                        contribuyendo a proyectos de código abierto, o compartiendo conocimientos
+                        con la comunidad de desarrolladores.
+                    </p>
+                </div>
+
+                <div class="skills-container">
+                    <div class="skills-card">
+                        <h3 class="skills-title">Habilidades Técnicas</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Frontend Development</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Backend Development</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>UI/UX Design</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Database Management</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            <p class="section-subtitle">Mi trayectoria en el mundo del desarrollo</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="experience-info">
+                                    <h3 class="experience-role">Senior Full Stack Developer</h3>
+                                    <p class="experience-company">Tech Innovations Inc.</p>
+                                    <p class="experience-period">2022 - Presente</p>
+                                </div>
+                            </div>
+                            <p class="experience-description">
+                                Liderazgo en el desarrollo de aplicaciones web escalables utilizando React, Node.js y PostgreSQL. 
+                                Implementación de arquitecturas microservicios y CI/CD.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="experience-info">
+                                    <h3 class="experience-role">Full Stack Developer</h3>
+                                    <p class="experience-company">Digital Solutions</p>
+                                    <p class="experience-period">2020 - 2022</p>
+                                </div>
+                            </div>
+                            <p class="experience-description">
+                                Desarrollo de aplicaciones empresariales y sistemas de gestión. Colaboración con equipos 
+                                multidisciplinarios para entregar soluciones de alta calidad.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Azure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div class="experience-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="experience-info">
+                                    <h3 class="experience-role">Frontend Developer</h3>
+                                    <p class="experience-company">StartUp Creative</p>
+                                    <p class="experience-period">2019 - 2020</p>
+                                </div>
+                            </div>
+                            <p class="experience-description">
+                                Desarrollo de interfaces de usuario modernas y responsivas. Optimización de rendimiento 
+                                y experiencia de usuario.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <h2 class="section-title">Logros & Reconocimientos</h2>
+            <p class="section-subtitle">Hitos destacados en mi carrera profesional</p>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Mejor Proyecto del Año 2024</h3>
+                        <p class="achievement-description">
+                            Reconocimiento por excelencia en innovación y desarrollo de software
+                        </p>
+                        <span class="achievement-year">2024</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Certificación AWS Solutions Architect</h3>
+                        <p class="achievement-description">
+                            Certificación profesional en arquitectura de soluciones en la nube
+                        </p>
+                        <span class="achievement-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">+50 Proyectos Completados</h3>
+                        <p class="achievement-description">
+                            Entrega exitosa de proyectos para clientes internacionales
+                        </p>
+                        <span class="achievement-year">2022-2024</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Líder de Equipo Técnico</h3>
+                        <p class="achievement-description">
+                            Liderazgo de equipos multidisciplinarios de desarrollo
+                        </p>
+                        <span class="achievement-year">2023</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Hackathon Nacional - Primer Lugar</h3>
+                        <p class="achievement-description">
+                            Ganador del hackathon más grande del país con solución innovadora
+                        </p>
+                        <span class="achievement-year">2022</span>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Contribuidor Open Source</h3>
+                        <p class="achievement-description">
+                            Contribuciones activas a proyectos populares de código abierto
+                        </p>
+                        <span class="achievement-year">2021-2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="contact-info-title">Email</h3>
+                    <p class="contact-info-text">tu@email.com</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 class="contact-info-title">Teléfono</h3>
+                    <p class="contact-info-text">+1 (555) 123-4567</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="contact-info-title">Ubicación</h3>
+                    <p class="contact-info-text">Ciudad, País</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="¿Sobre qué quieres hablar?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
